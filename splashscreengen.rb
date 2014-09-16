@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/Users/sprenger/.rvm/bin/ruby
 # encoding : utf-8
 
 require 'rubygems'
@@ -23,69 +23,41 @@ img = ImageList.new(img_name)
 # only iOS 7.0 and above
 sizes = [{
       idiom: 'iphone 4 portrait',
-      name: 'Default-Portrait@2x~iphone.png',
+      name: 'Default@2x~iphone.png',
       orientation: 'portrait',
       width: 320,
       height: 480,
       scale: 2},
       {
-      idiom: 'iphone 4 landscape',
-      name: 'Default-Landscape@2x~iphone.png',
-      orientation: 'landscape',
-      width: 480,
-      height: 320,
-      scale: 2},
-      {
       idiom: 'iphone 5 portrait',
-      name: 'Default-Portrait-568h@2x~iphone.png',
+      name: 'Default-568h@2x~iphone.png',
       orientation: 'portrait',
       width: 320,
       height: 568,
       scale: 2},
       {
-      idiom: 'iphone 5 landscape',
-      name: 'Default-Landscape-568h@2x~iphone.png',
-      orientation: 'landscape',
-      width: 568,
-      height: 320,
-      scale: 2},
-      {
       idiom: 'iphone 6 portrait',
-      name: 'Default-Portrait-667h@2x~iphone.png',
+      name: 'Default-667h@2x~iphone.png',
       orientation: 'portrait',
       width: 375,
       height: 667,
       scale: 2},
       {
-      idiom: 'iphone 6 landscape',
-      name: 'Default-Landscape-667h@2x~iphone.png',
-      orientation: 'landscape',
-      width: 667,
-      height: 375,
-      scale: 2},
-      {
       idiom: 'iphone 6 plus portrait',
-      name: 'Default-Portrait-736h@3x~iphone.png',
+      name: 'Default-736h@3x~iphone.png',
       orientation: 'portrait',
       width: 414,
       height: 736,
       scale: 3},
       {
-      idiom: 'iphone 6 plus landscape',
-      name: 'Default-Landscape-736h@3x~iphone.png',
-      orientation: 'landscape',
-      width: 736,
-      height: 414,
-      scale: 3},
-      {
-      idiom: 'ipad portrait',
+      idiom: 'ipad 1/2 portrait',
       name: 'Default-Portrait~ipad.png',
       orientation: 'portrait',
       width: 768,
       height: 1024,
       scale: 1},
       {
-      idiom: 'ipad landscape',
+      idiom: 'ipad 1/2 landscape',
       name: 'Default-Landscape~ipad.png',
       orientation: 'landscape',
       width: 1024,
