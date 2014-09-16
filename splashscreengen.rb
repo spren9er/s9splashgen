@@ -1,4 +1,4 @@
-#!/Users/sprenger/.rvm/bin/ruby
+#!/usr/bin/ruby
 # encoding : utf-8
 
 require 'rubygems'
