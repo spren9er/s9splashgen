@@ -1,9 +1,9 @@
-splashscreengen ・ Splash screen generator
-==========================================
+s9splashgen ・ Splash screen generator
+======================================
 
 ## Introduction
 
-The Ruby script `splashscreengen` automatically generates splash screens for iPhone and/or iPad apps (iOS 7 and above). It uses `imagemagick` and the gem `rmagick`.
+The Ruby script `s9splashgen` automatically generates splash screens for iPhone and/or iPad apps (iOS 7 and above). It uses `imagemagick` and the gem `rmagick`.
 
 ## Installation
 
@@ -19,7 +19,7 @@ gem install rmagick
 Just run the script 
 
 ```bash
-./splashscreengen.rb my_splash.png
+./s9splashgen.rb my_splash.png
 ```
 
 The first argument is the filename of the splash screen file. By default only iPhone splash screens are generated. 
