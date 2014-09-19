@@ -87,6 +87,7 @@ def log(width, height, scale, filename)
   puts "#{s}(#{f}) -> #{fs}: #{filename}"
 end
 
+`rm screens/*.png` unless Dir['screens/*.png'].empty?
 sizes.each do |s|
   if device == 'universal' || s[:idiom].start_with?(device)
     width = s[:scale]*s[:width]
