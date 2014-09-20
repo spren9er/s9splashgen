@@ -31,40 +31,43 @@ Add the splash screens to your resources folder. In order to use the splash scre
 
 ```ruby
 app.info_plist['UILaunchImages'] = [
- {
-   'UILaunchImageName' => 'Default',
-   'UILaunchImageOrientation' => 'Portrait',
-   'UILaunchImageMinimumOSVersion' => '7.0',
-   'UILaunchImageSize' => '{320, 480}'
- },
- {
-   'UILaunchImageName' => 'Default-568h',
-   'UILaunchImageOrientation' => 'Portrait',
-   'UILaunchImageMinimumOSVersion' => '7.0',
-   'UILaunchImageSize' => '{320, 568}'
- },
- {
-   'UILaunchImageName' => 'Default-667h',
-   'UILaunchImageOrientation' => 'Portrait',
-   'UILaunchImageMinimumOSVersion' => '8.0',
-   'UILaunchImageSize' => '{375, 667}'
- },
- {
-   'UILaunchImageName' => 'Default-736h',
-   'UILaunchImageOrientation' => 'Portrait',
-   'UILaunchImageMinimumOSVersion' => '8.0',
-   'UILaunchImageSize' => '{414, 736}'
- },
- {
-   'UILaunchImageName' => 'Default-Portrait',
-   'UILaunchImageOrientation' => 'Portrait',
-   'UILaunchImageMinimumOSVersion' => '7.0',
-   'UILaunchImageSize' => '{768, 1024}'
- },
- {
-   'UILaunchImageName' => 'Default-Landscape',
-   'UILaunchImageOrientation' => 'Landscape',
-   'UILaunchImageMinimumOSVersion' => '7.0',
-   'UILaunchImageSize' => '{768, 1024}'
- }]
+  # iphone
+  {
+    'UILaunchImageName' => 'Default',
+    'UILaunchImageOrientation' => 'Portrait',
+    'UILaunchImageMinimumOSVersion' => '7.0',
+    'UILaunchImageSize' => '{320, 480}'
+  },
+  {
+    'UILaunchImageName' => 'Default-568h',
+    'UILaunchImageOrientation' => 'Portrait',
+    'UILaunchImageMinimumOSVersion' => '7.0',
+    'UILaunchImageSize' => '{320, 568}'
+  },
+  {
+    'UILaunchImageName' => 'Default-667h',
+    'UILaunchImageOrientation' => 'Portrait',
+    'UILaunchImageMinimumOSVersion' => '8.0',
+    'UILaunchImageSize' => '{375, 667}'
+  },
+  {
+    'UILaunchImageName' => 'Default-736h',
+    'UILaunchImageOrientation' => 'Portrait',
+    'UILaunchImageMinimumOSVersion' => '8.0',
+    'UILaunchImageSize' => '{414, 736}'
+  },
+  # ipad
+  {
+    'UILaunchImageName' => 'Default-Portrait',
+    'UILaunchImageOrientation' => 'Portrait',
+    'UILaunchImageMinimumOSVersion' => '7.0',
+    'UILaunchImageSize' => '{768, 1024}'
+  },
+  {
+    'UILaunchImageName' => 'Default-Landscape',
+    'UILaunchImageOrientation' => 'Landscape',
+    'UILaunchImageMinimumOSVersion' => '7.0',
+    'UILaunchImageSize' => '{768, 1024}'
+  }
+]
 ```
