@@ -36,20 +36,6 @@ sizes = [{
       height: 568,
       scale: 2},
       {
-      idiom: 'iphone 6 portrait',
-      name: 'Default-667h@2x~iphone.png',
-      orientation: 'portrait',
-      width: 375,
-      height: 667,
-      scale: 2},
-      {
-      idiom: 'iphone 6 plus portrait',
-      name: 'Default-736h@3x~iphone.png',
-      orientation: 'portrait',
-      width: 414,
-      height: 736,
-      scale: 3},
-      {
       idiom: 'ipad 1/2 portrait',
       name: 'Default-Portrait~ipad.png',
       orientation: 'portrait',
