@@ -27,7 +27,7 @@ If one supplies a second argument (`ipad` or `universal`), iPad splash screens o
 
 ## Rubymotion
 
-In order to use the splash screens with Rubymotion you have to edit your rakefile, i.e. for a universal app
+In order to use the splash screens with Rubymotion you have to edit your rakefile, i.e. for a universal app you add the following
 
 ```ruby
 app.info_plist['UILaunchImages'] = [
