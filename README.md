@@ -22,7 +22,7 @@ Just run the script
 ./s9splashgen.rb my_splash.png
 ```
 
-The first argument is the filename of the splash screen image (for best results use an image in portrait mode and at least 1536x2048 in size [1242x2208 iphone only]). By default only iPhone splash screens are generated. 
+The first argument is the filename of the splash screen image (for best results use an image in portrait mode of size of at least 1536x2048 [1242x2208 iphone only]). By default only iPhone splash screens are generated. 
 If one supplies a second argument (`ipad` or `universal`), iPad splash screens or iPhone/iPad splash screens are generated respectively.
 
 ## Rubymotion
