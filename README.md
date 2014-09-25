@@ -47,9 +47,9 @@ will generate
 ```
 
 
-## Rubymotion
+## RubyMotion
 
-Add the splash screens to your resources folder. In order to use the splash screens with Rubymotion you have to add the following lines to your rakefile (universal app)
+Add the splash screens to your resources folder. Since RubyMotion 2.34 there is no need to modify your rakefile, if you only want iPhone and iPad portrait launch images. For a universal app with additional iPad landscape launch images you have to add the following lines to your rakefile.
 
 ```ruby
 app.info_plist['UILaunchImages'] = [
@@ -93,5 +93,3 @@ app.info_plist['UILaunchImages'] = [
   }
 ]
 ```
-
-Since RubyMotion 2.34 there is no need to add the lines above to your rakefile, if you only want iPhone and iPad (Portrait) launch images.
