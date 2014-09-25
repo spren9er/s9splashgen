@@ -25,6 +25,28 @@ Just run the script
 The first argument is the filename of the splash screen image (for best results use an image in portrait mode of size of at least 1536x2048 [1242x2208 iphone only]). By default only iPhone splash screens are generated. 
 If one supplies a second argument (`ipad` or `universal`), iPad splash screens or iPhone/iPad splash screens are generated respectively.
 
+## Example
+
+The command
+
+```bash
+./s9splashgen.rb my_splash.png universal
+```
+
+will generate
+
+```bash
+  320x480(2x) ->   640x960: screens/Default@2x~iphone.png
+  320x568(2x) ->  640x1136: screens/Default-568h@2x~iphone.png
+  375x667(2x) ->  750x1334: screens/Default-667h@2x~iphone.png
+  414x736(3x) -> 1242x2208: screens/Default-736h@3x~iphone.png
+ 768x1024(1x) ->  768x1024: screens/Default-Portrait~ipad.png
+ 1024x768(1x) ->  1024x768: screens/Default-Landscape~ipad.png
+ 768x1024(2x) -> 1536x2048: screens/Default-Portrait@2x~ipad.png
+ 1024x768(2x) -> 2048x1536: screens/Default-Landscape@2x~ipad.png
+```
+
+
 ## Rubymotion
 
 Add the splash screens to your resources folder. In order to use the splash screens with Rubymotion you have to add the following lines to your rakefile (universal app)
@@ -71,3 +93,5 @@ app.info_plist['UILaunchImages'] = [
   }
 ]
 ```
+
+Since RubyMotion 2.34 there is no need to add the lines above to your rakefile, if you only want iPhone and iPad (Portrait) launch images.
