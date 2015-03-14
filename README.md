@@ -1,4 +1,4 @@
-s9splashgen ・ Splash screen generator
+s9splashgen - Splash screen generator
 ======================================
 
 ## Introduction
